@@ -1,0 +1,83 @@
+.chatbox {
+  flex: 0.65;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.chatbox_header {
+  display: flex;
+  padding: 20px;
+  padding-bottom: 0px;
+  padding-top: 8px;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+
+.chatbox_headerInfo {
+  padding-left: 20px;
+  flex: 1;
+}
+.chatbox_headerInfo > h2 {
+  margin-bottom: 3px;
+  font-weight: 20px;
+}
+.chatbox_headerInfo > p {
+  color: grey;
+}
+
+.chatbox_body {
+  flex: 1;
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/2d9dd173426833.5c08f5634ff45.png");
+  background-repeat: repeat;
+  background-position: center;
+  padding: 30px;
+  overflow: auto;
+}
+
+.chatbox_message {
+  position: relative;
+  background-color: lightblue;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+.chatbox_reciever {
+  margin-left: auto;
+  background-color: rgb(164, 245, 164);
+}
+.chatbox_name {
+  position: absolute;
+  top: -15px;
+  font-weight: 800;
+  font-size: xx-small;
+}
+.chatbox_timestamp {
+  margin-left: 10px;
+  font-size: xx-small;
+}
+.chatbox_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  background-color: rgb(235, 228, 228);
+}
+.chatbox_footer > form {
+  flex: 1;
+  display: flex;
+}
+.chatbox_footer > form > input {
+  flex: 1;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+}
+.chatbox_footer > form > button {
+  display: none;
+}
+.chatbox_footer > .MuiSvgIcon-root {
+  padding: 20 px;
+  color: grey;
+}
