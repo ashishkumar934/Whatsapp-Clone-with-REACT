@@ -101,7 +101,7 @@ function Chatbox() {
             onChange={(event) => {
               setInput(event.target.value);
             }}
-            placeholder="Type your message"
+            placeholder="Type your message here"
           />
           <button onClick={sendMessage} type="submit">
             {" "}
